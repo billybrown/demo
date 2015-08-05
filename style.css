@@ -1,0 +1,40 @@
+body {
+	background: snow;
+	color: #333;
+	font-family: Verdana;
+	border-top: 10px solid dodgerblue;
+	margin: 0;
+
+}
+
+.PageWrapper {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: Impact;
+	text-transform: uppercase;
+	background: dodgerblue;
+	color: white;
+	letter-spacing: 2px;
+	text-align: center;
+	padding: 10px;
+}
+
+a {
+	color: dodgerblue;
+}
+
+/* 	
+this is an example of a media query
+when the browser window is less then 800px the border top color
+changes to the color 'tomato'
+*/
+@media (max-width: 800px) {
+	body {
+		border-top-color: tomato;
+	}
+}
